@@ -1,0 +1,23 @@
+###
+GET http://localhost:4000/students
+
+
+###
+GET http://localhost:4000/getstudent/1
+
+
+###
+POSt http://localhost:4000/post/
+Content-Type: application/json
+
+{
+    "firstName" : "Fatima",
+    "lastName" : "Kabirqqqq",
+    "age" : 64,
+    "gender" : "F"
+}
+
+
+###
+DELETE http://localhost:4000/student/4
+
